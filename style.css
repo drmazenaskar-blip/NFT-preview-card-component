@@ -53,7 +53,7 @@ body {
 }
 
 .image-container {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
     overflow: hidden;
      cursor: pointer;
@@ -90,7 +90,7 @@ body {
     font-size: 24px;
     font-weight: var(--font-weight-semibold);
     color: var(--white);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -104,7 +104,7 @@ body {
     font-weight: var(--font-weight-light);
     color: var(--blue-500);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     ;
 }
 
@@ -112,7 +112,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     border-bottom: solid 1px var(--blue-800);
     padding-bottom: 20px;
 
