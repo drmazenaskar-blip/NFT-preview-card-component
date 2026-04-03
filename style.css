@@ -11,6 +11,7 @@
     --blue-900: hsl(216, 50%, 16%);
     --blue-800: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
+    --margin:20px;
 
     /* ===== Typography ===== */
 
@@ -53,10 +54,10 @@ body {
 }
 
 .image-container {
-    margin-bottom: 15px;
+    margin-bottom: var(--margin);
     position: relative;
     overflow: hidden;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .card .image-container img {
@@ -90,7 +91,7 @@ body {
     font-size: 24px;
     font-weight: var(--font-weight-semibold);
     color: var(--white);
-    margin-bottom: 15px;
+    margin-bottom: var(--margin);
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -104,7 +105,7 @@ body {
     font-weight: var(--font-weight-light);
     color: var(--blue-500);
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: var(--margin);
     ;
 }
 
@@ -112,7 +113,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: var(--margin);
     border-bottom: solid 1px var(--blue-800);
     padding-bottom: 20px;
 
